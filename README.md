@@ -1,4 +1,4 @@
-# IBM Business Automation Manager Open Editions (IBM BAMOE) Workshop - Student Labs
+# IBM Business Automation Manager Open Editions (IBM BAMOE) Workshop (WB420G) - Student Labs
 
 # Overview
 This repository includes all labs created by the student.
