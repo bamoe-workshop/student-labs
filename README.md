@@ -4,7 +4,7 @@
 This repository includes all labs created by the student.
 
 # Setting up for your labs
-In order to have a place to put the labs that you work on during the training, you will need to create your own branch of the repository.  It is recommended to use your IBMid as your branch name.  If you don't have an IBMid, you can request one at [Request IBMid](https://www.ibm.com/account/reg/us-en/signup?formid=urx-19776).
+In order to have a place to put the labs that you work on during the training, you will need to create your own branch of the repository.  It is recommended to use your IBMid as your branch name.  If you don't have an IBMid, you can request one at [Create an IBMid](https://www.ibm.com/account/reg/us-en/signup?formid=urx-19776).
 
 Be sure to select a unique name, such as your name (no spaces).  In a terminal window:
 
