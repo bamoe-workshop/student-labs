@@ -27,7 +27,7 @@ To login to Docker, from a command prompt enter:
 ```
 
 ## Guidelines
-Use the supplied [Maven Archetypes](../bamoe-maven/README.md) in order to generate the lab project of your choice.  You can emplly a `multi-module` approach to your labs, creating a project for each appliation and then creating a master `pom.xml` that builds all of them in one step.  For example:
+Use the supplied [Maven Archetypes](../bamoe-maven/README.md) in order to generate the lab project of your choice.  You can utilize a `multi-module` approach to your labs, creating a project for each appliation and then creating a master `pom.xml` that builds all of them in one step.  For example:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -46,16 +46,11 @@ Use the supplied [Maven Archetypes](../bamoe-maven/README.md) in order to genera
 ```
 
 You can now run Maven commands either in the root folder or each project's folder.  Any command performed at the root folder level will apply to all
-projects. 
-
-Common commands at the root project or entire repository level include:
+projects. Common commands at the root project or entire repository level include:
 
 - ***mvn clean install** - This command will build the project's standalone JAR files, in order to be able to be run using Quarkus Dev Mode:  `mvn clean quarkus:dev -Pdev`.  No container iamge is created during this phase.
-
 - ***mvn clean package -Pdocker** - This command will build the docker container image and push it to the local docker registry.  Use the project's `docker-compose.yml` file in order to deploy the container image to your local Docker.
-
 - ***mvn clean package -Popenshift** - This command will build and automatically deploy the container image to OpenShift, creating it's pods, services, and routes automatically.
-
 
 > **_TIP:_** The location for which you run Maven commands determines the behavior.  Commands entered at the root of the entire student lab repository will apply to all projects within that repository, whereas commands entered at the root of each sub-module (project) will only apply to that project.  
 
